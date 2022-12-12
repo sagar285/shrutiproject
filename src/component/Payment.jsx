@@ -21,7 +21,7 @@ const Payment = () => {
       "Content-Type": "application/json",
     };
 
-    return fetch(`https://backend2-hz2a.onrender.com/payment`, {
+    return fetch(`https://shrutibackend.onrender.com/payment`, {
       method: "POST",
       headers,
       body: JSON.stringify(body),
