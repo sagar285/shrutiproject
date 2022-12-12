@@ -13,7 +13,7 @@ if(e.target.value>=18 && e.target.value<65)
 }  
   return (
     <>
-      <div className="w-[14rem] md:w-[100%] md:h-[100rem] bg-slate-500 md:fixed" >
+      <div className="w-[14rem] md:w-[100%] md:h-[100rem] md:fixed" >
         <img src={img} className="   "/>
         <input type="text" placeholder="enter your age"  
          className="bg-black mt-[6rem]  ml-3 text-white md:w-[12rem] md:h-[3rem] md:ml-[11rem]  " onChange={ageheck} />

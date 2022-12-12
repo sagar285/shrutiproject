@@ -41,7 +41,7 @@ function handleinputs(e){
     }
     }
   return (
-    <div className='w-[100vw] h-[100vw] md:h-[64rem] text-blue-900 font-extrabold fixed bg-slate-600 '> 
+    <div className='w-[100vw] h-[100vw] md:h-[64rem] text-blue-900 font-extrabold  bg-slate-600 '> 
     <div className='pt-3 bg-black '>STAY FIT</div>
              <form className='bg-black w-[17rem] h-[20rem] ml-7 mt-[1rem] rounded-[2rem] md:ml-[14rem] md:mt-[14rem] '>
     <input type="text" name='name' value={form.name} onChange={handleinputs} placeholder="enter your name" autoComplete='off' required className=' leading-7 mt-[1rem] ml-[2rem] rounded-[0.2rem] w-[13rem] p-2'/><br/>
