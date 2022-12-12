@@ -17,7 +17,7 @@ function handleinputs(e){
   const Postdata = async(e)=>{
     e.preventDefault();
     const {name,email,phone,timing}=form;
-    const res =await fetch(`http://localhost:8080/register`,{
+    const res =await fetch(`https://backend2-hz2a.onrender.com/register`,{
       method:"POST",
       headers:{
         "Content-Type":"application/json"
