@@ -41,12 +41,14 @@ function handleinputs(e){
     }
     }
   return (
-    <div className='w-[100rem] h-[100vw] bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 fixed  '>
-             <form className='bg-black w-[17rem] h-[20rem] ml-[29rem] mt-[8rem] rounded-[2rem]  '   >
-    <input type="text" name='name' value={form.name} onChange={handleinputs} placeholder="enter your name" autoComplete='off'  className=' leading-7 mt-[1rem] ml-[2rem] rounded-[0.2rem] w-[13rem] p-2'/><br/>
+    <div className='w-[100vw] h-[100vw] md:h-[64rem] text-blue-900 font-extrabold fixed bg-slate-600 '> 
+    <div className='pt-3 bg-black '>STAY FIT</div>
+             <form className='bg-black w-[17rem] h-[20rem] ml-7 mt-[1rem] rounded-[2rem] md:ml-[14rem] md:mt-[14rem] '>
+    <input type="text" name='name' value={form.name} onChange={handleinputs} placeholder="enter your name" autoComplete='off' required className=' leading-7 mt-[1rem] ml-[2rem] rounded-[0.2rem] w-[13rem] p-2'/><br/>
+  
     <input type="email" name='email' value={form.email} onChange={handleinputs} placeholder="enter your email"  className=' leading-7 mt-[0.6rem] ml-[2rem] rounded-[0.2rem] w-[13rem] p-2'/> <br/> 
     <input type="tel" name='phone' value={form.password} onChange={handleinputs} placeholder="enter your phone number"  className=' leading-7 mt-[0.6rem] ml-[2rem] rounded-[0.2rem] w-[13rem] p-2'/><br/>
-<select name="timing" id="yoga" value={form.select} onChange={handleinputs} className=' leading-7 mt-[0.6rem] ml-[2rem] rounded-[0.2rem] font-semibold  border-6 p-2'>
+<select name="timing" id="yoga" value={form.select} onChange={handleinputs} className=' leading-7 mt-[0.6rem] ml-[2rem] rounded-[0.2rem]   border-6 p-2'>
 <option value="">Choose your timing</option>
 <option value={form.select}>6</option>
 <option value={form.select}>7</option>

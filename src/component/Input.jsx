@@ -13,15 +13,15 @@ if(e.target.value>=18 && e.target.value<65)
 }  
   return (
     <>
-      <div className=" w-1/4  h-[100vw]   flex" >
-        <img src={img} className=" w-[1/3] h-[10rem]   ml-[3rem]  "/>
+      <div className="w-[14rem] md:w-[100%] md:h-[100rem] bg-slate-500 md:fixed" >
+        <img src={img} className="   "/>
         <input type="text" placeholder="enter your age"  
-         className="bg-black justify-items-center ml-[15vw] rounded-[2rem] text-[2rem] mt-[10rem] h-[2rem] text-white    " onChange={ageheck} />
+         className="bg-black mt-[6rem]  ml-3 text-white md:w-[12rem] md:h-[3rem] md:ml-[11rem]  " onChange={ageheck} />
          
       
       { (age)?  
-     <Link to="/inputafter" className=" h-[20px] text-white ml-[-15rem] mt-[13rem]  rounded-[2rem]  bg-black"><button className="w-[06rem]   text-[1.2rem] mt-[-1.2rem] " >Enter</button></Link>
-    :<Link to ="/" className=" h-[20px] text-white ml-[-15rem] mt-[13rem]  rounded-[2rem] bg-black  "><button className="w-[06rem]  text-[1.2rem] mt-[-1.2rem]  ">Enter</button></Link>}
+     <Link to="/inputafter" className=" text-white ml-[3rem]  bg-black"><button className=" mt-[1rem] " >Enter</button></Link>
+    :<Link to ="/newpage" className="  bg-black text-white ml-[3rem]   "><button className=" mt-[1rem] w-[4rem] ">Enter</button></Link>}
     </div>
     </>
   );
